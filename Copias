@@ -1,0 +1,17 @@
+   //    let mensagem = new Discord.MessageEmbed()
+    //    .setAuthor(msg.author.username, msg.author.displayAvatarURL({dynamic: true}))
+    //    .setTitle(`Gabii Ticket!`)
+    //    .setDescription(`${msg.author}, Quer ter um orçamento ou criar um projeto feito pela equipe da GabiCode? 
+    //    Clica no "✔️" que você vai ser direcionado para uma conversa com a equipe.`)
+    //    .addField(`👮‍♂️ Respeite as regras, para não ser banido! ➜`, `${msg.guild.channels.cache.get("911432651397816390")}`)
+    //    .setColor('PURPLE')
+    //    .setTimestamp()
+    //    .setThumbnail(msg.guild.iconURL({dynamic : true}))
+    //    .setFooter(`${msg.guild.name} - Alguns direitos reservados ®`, msg.guild.iconURL({dynamic:true}))
+    //    .setURL('https://www.youtube.com/channel/UCQ-dBcavpZ1Wj2OZdo9JU1w')
+
+
+
+msg.channel.send(`Pronto ${msg.author}, Embed criada!`);
+
+return msg.channel.send(`Ei ${msg.author}, você não pode usar esse comando aqui!`)

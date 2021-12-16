@@ -1,0 +1,19 @@
+{
+  "name": "botgabii",
+  "version": "1.0.0",
+  "description": "Feito por Gabriel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "GabrielGomes",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^12.4.1",
+    "enmap": "^5.8.7",
+    "fs": "^0.0.1-security"
+  }
+}
